@@ -89,7 +89,7 @@ namespace SpecFlowProject4.Pages
             Thread.Sleep(1000); // Small wait to ensure scrolling is completed
 
             // Click the button
-            finishButton.Click();
+         //   finishButton.Click();
         }
 
         public void messagedisplay(string expectedmsg)
