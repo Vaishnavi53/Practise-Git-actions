@@ -23,5 +23,5 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Run selenium scripts
-        run: dotnet test --no-build --logger -trx
+        run: dotnet test --no-build
       
