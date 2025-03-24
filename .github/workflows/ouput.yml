@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ouput github context
-        run: echo "${{toJSON(GitHub)}}"
+        run: echo "${{toJSON(github)}}"
   
