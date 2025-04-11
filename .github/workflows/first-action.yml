@@ -1,5 +1,5 @@
 name: First workflow
-on: workflow_dispatch
+on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
@@ -8,4 +8,8 @@ jobs:
         run: echo "Hello Vaishnavi!"
       - name: Print goodbye
         run: echo "Done!"
-       
+      - name : cpu checker
+        run: sudo apt install cpu-checker
+
+      - name: accept kvm
+        run: kvm-ok
